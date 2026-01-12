@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <title>Adventist Health Brasil</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+<body class="min-h-screen bg-white text-slate-900">
+
+  <!-- LOADER (versão estática) -->
+  <div id="loader" class="hidden min-h-screen flex items-center justify-center bg-gradient-to-br from-[#00558c] to-[#0071bb]">
+    <div class="text-center">
+      <svg class="w-12 h-12 text-white animate-spin mx-auto mb-4" viewBox="0 0 24 24">
+        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+        <path class="opacity-75" fill="currentColor"
+          d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z">
+        </path>
+      </svg>
+      <p class="text-white/70">Carregando...</p>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <section class="min-h-screen flex flex-col justify-center items-center bg-gradient-to-br from-[#00558c] to-[#0071bb] text-white px-6 text-center">
+    <h1 class="text-4xl md:text-6xl font-bold mb-6">
+      Adventist Health Brasil
+    </h1>
+
+    <p class="max-w-2xl text-white/80 mb-10">
+      Uma rede de saúde comprometida com excelência, cuidado integral e propósito.
+    </p>
+
+    <div class="flex gap-4">
+      <a href="#rede" class="px-6 py-3 bg-white text-[#00558c] rounded-md font-medium hover:bg-slate-100">
+        Nossa Rede
+      </a>
+      <a href="#instituicoes" class="px-6 py-3 border border-white rounded-md hover:bg-white/10">
+        Instituições
+      </a>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section id="sobre" class="py-20 px-6 max-w-5xl mx-auto">
+    <h2 class="text-3xl font-bold mb-6">Sobre a Rede</h2>
+    <p class="text-slate-600 leading-relaxed">
+      A Adventist Health Brasil atua promovendo saúde física, mental, social e espiritual,
+      seguindo princípios cristãos e excelência técnico-científica.
+    </p>
+  </section>
+
+  <!-- OBJETIVOS -->
+  <section id="objetivos" class="py-20 px-6 bg-slate-50">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-3xl font-bold mb-8">Objetivos Estratégicos</h2>
+
+      <ul class="grid md:grid-cols-3 gap-6">
+        <li class="p-6 bg-white rounded-lg shadow">
+          <h3 class="font-semibold mb-2">Excelência Assistencial</h3>
+          <p class="text-sm text-slate-600">
+            Qualidade, segurança e cuidado centrado no paciente.
+          </p>
+        </li>
+
+        <li class="p-6 bg-white rounded-lg shadow">
+          <h3 class="font-semibold mb-2">Expansão Sustentável</h3>
+          <p class="text-sm text-slate-600">
+            Crescimento estruturado e responsável da rede.
+          </p>
+        </li>
+
+        <li class="p-6 bg-white rounded-lg shadow">
+          <h3 class="font-semibold mb-2">Integração da Rede</h3>
+          <p class="text-sm text-slate-600">
+            Conexão entre unidades, marcas e processos.
+          </p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- REDE -->
+  <section id="rede" class="py-20 px-6 max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold mb-6">Nossa Rede</h2>
+    <p class="text-slate-600">
+      Presente em diversas regiões do Brasil, conectando cuidado, fé e ciência.
+    </p>
+
+    <div class="mt-10 h-64 rounded-lg bg-slate-200 flex items-center justify-center text-slate-500">
+      Mapa da Rede (placeholder)
+    </div>
+  </section>
+
+  <!-- INSTITUIÇÕES -->
+  <section id="instituicoes" class="py-20 px-6 bg-slate-50">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl font-bold mb-8">Instituições</h2>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="p-6 bg-white rounded-lg shadow">
+          <h3 class="font-semibold">Hospital Adventista</h3>
+          <p class="text-sm text-slate-600">Alta complexidade</p>
+        </div>
+
+        <div class="p-6 bg-white rounded-lg shadow">
+          <h3 class="font-semibold">Centro Médico Adventista</h3>
+          <p class="text-sm text-slate-600">Atendimento ambulatorial</p>
+        </div>
+
+        <div class="p-6 bg-white rounded-lg shadow">
+          <h3 class="font-semibold">Spa Médico Adventista</h3>
+          <p class="text-sm text-slate-600">Medicina do estilo de vida</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-10 px-6 bg-slate-900 text-slate-300 text-center">
+    <p class="text-sm">
+      © 2026 Adventist Health Brasil · Todos os direitos reservados
+    </p>
+  </footer>
+
+</body>
+</html>
